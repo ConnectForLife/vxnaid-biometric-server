@@ -1,0 +1,8 @@
+[iris]
+Description = MySQL Biometrics database
+Driver = MySQL
+SERVER = DB_HOST
+USER = DB_USER
+PASSWORD = DB_PASSWORD
+PORT = DB_PORT
+DATABASE = DB_NAME

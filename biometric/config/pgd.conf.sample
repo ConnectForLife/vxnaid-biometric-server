@@ -1,0 +1,5 @@
+mode = single
+
+LicenseFile = ../../Licenses/MyLicense_NV_PC_IrisFastMatcher_123ABC_internet.lic
+LicenseFile = ../../Licenses/MyLicense_NV_MegaMatcher_Server.lic
+LicenceUsageLogFile = /tmp/license.log
