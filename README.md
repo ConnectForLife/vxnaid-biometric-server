@@ -12,8 +12,8 @@ The above 2 licenses needs to be copied to biometric/config/Licenses directory.
 
 1.2. Biometric server setup files and libraries
 
-The files required to setup the server ( neurotechnology licensed SDK) were downloaded from Neurotechnology website. Neurotechnology provides the download details when the licenses are purchased.
-The required setup files are taken from the downloaded package and compressed in a tar file. The file is available in biometric/neurotech_iris.tar.gz
+The files required to setup the server (Neurotechnology licensed SDK) were downloaded from [Neurotechnology website](https://www.neurotechnology.com/download.html).
+The attached biometric/neurotech_iris.tar.gz is a slimmed-down SDK.
 
 1.3. License config file (biometric/config/pgd.conf)
 License files details needs to be updated here
