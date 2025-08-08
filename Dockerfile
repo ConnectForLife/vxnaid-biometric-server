@@ -31,10 +31,10 @@ RUN tar xvzf mysql-connector-odbc-8.0.25-linux-glibc2.12-x86-64bit.tar.gz \
 # Install MYSQL template
 COPY mysql/mysql_template .
 RUN sed -i -r "s/DB_HOST/${DB_HOST}/g" mysql_template
-RUN sed -i -r "s/DB_USER/$DB_USER/g" mysql_template
-RUN sed -i -r "s/DB_PASSWORD/$DB_PASSWORD/g" mysql_template
-RUN sed -i -r "s/DB_PORT/$DB_PORT/g" mysql_template
-RUN sed -i -r "s/DB_NAME/$DB_NAME/g" mysql_template
+RUN sed -i -r "s/DB_USER/${DB_USER}/g" mysql_template
+RUN sed -i -r "s/DB_PASSWORD/${DB_PASSWORD}/g" mysql_template
+RUN sed -i -r "s/DB_PORT/${DB_PORT}/g" mysql_template
+RUN sed -i -r "s/DB_NAME/${DB_NAME}/g" mysql_template
 RUN odbcinst -i -s -f mysql_template
 
 RUN chmod +x /opt/startServer.sh

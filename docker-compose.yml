@@ -14,3 +14,11 @@ services:
     ports:
       - ${ADMIN_PORT}:24932
       - ${CLIENT_PORT}:25452
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    networks:
+      - inrb_network
+
+networks:
+  inrb_network:
+    external: true
